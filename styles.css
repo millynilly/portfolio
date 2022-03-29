@@ -1,0 +1,88 @@
+body {
+    font-family: 'Red hat mono';
+    margin: 0 24px 48px 24px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Unica one';
+    font-weight: 400;
+}
+
+h1 { text-align: center; }
+
+#welcome {
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 24px;
+    border-bottom: 1px solid black;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-section {
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 48px auto;
+}
+
+#resources {
+    width: 200px;
+    margin: 24px auto;
+}
+
+#img-div {
+   
+}
+
+img {
+   display: block;
+   width: 100%;
+}
+
+#caption {
+    font-size: .8rem;
+    margin-top: 6px;
+}
+
+
+
+/*Projects*/
+#projects {
+    width: 91vw;
+    margin: 48px auto;
+}
+
+.tiles {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.project-tile {
+    width: 22vw;
+}
+
+.project-tile img {
+    border: 1px solid #555;
+}
