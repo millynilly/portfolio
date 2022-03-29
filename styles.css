@@ -8,11 +8,15 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
-h1 { text-align: center; }
+h1, h2 {
+    text-align: center;
+    padding-top: 72px;
+}
 
 #welcome {
     text-align: center;
     font-size: larger;
+    
 }
 
 a {
@@ -73,6 +77,10 @@ img {
     margin: 48px auto;
 }
 
+.project-section {
+    border-bottom: 1px solid darkgray;
+}
+
 .tiles {
     display: flex;
     gap: 2vw;
@@ -84,5 +92,22 @@ img {
 }
 
 .project-tile img {
-    border: 1px solid #555;
+    border: 1px solid darkgray;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+
+/*media query*/
+@media (max-width: 700px) {
+
+    .tiles {
+        flex-wrap: wrap;
+    }
+    .project-tile {
+        width: 44.5vw;
+    }
 }
